@@ -56,7 +56,7 @@ We evaluated alternative prediction baselines using recipe metadata:
 
 
 **Figure 4: Prediction based on nutrition**  
-![Prediction based on nutrition](https://github.com/goviet2002/Food-Recommendation-System/blob/main/results/nutritionTable.png)
+![Prediction based on nutrition](https://github.com/goviet2002/Food-Recommendation-System/blob/main/results/nutrition.png)
 
 ## 📝 Recommendations & Takeaways
 
