@@ -54,6 +54,7 @@ We evaluated alternative prediction baselines using recipe metadata:
 - **Nutrition-based Prediction**
   - Predicting with nutrition data results in a good trade-off: RMSE = 0.77, ME = 0.62, with a runtime of just 15 seconds.
 
+
 **Figure 4: Prediction based on nutrition**  
 ![Prediction based on nutrition](https://github.com/goviet2002/Food-Recommendation-System/blob/main/results/nutritionTable.png)
 
