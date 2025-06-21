@@ -1,0 +1,15 @@
+spark-submit --class ProteinShingles target\scala-2.13\big-data_2.13-0.1.jar swissprot.tsv 20 output
+
+spark-submit --class ProteinMinHashing target\scala-2.13\big-data_2.13-0.1.jar data\characteristic_matrix.tsv 2 output1
+
+spark-submit --class ProteinLSHashing target\scala-2.13\big-data_2.13-0.1.jar data\signature.tsv 2 output2
+
+spark-submit --class PowerIteration target\scala-2.13\big-data_2.13-0.1.jar data\matrix.tsv 3 2 output
+
+spark-submit --class ProteinTFIDF target\scala-2.13\big-data_2.13-0.1.jar data\matrix.tsv 3 0 output
+
+spark-submit --class UFOStats target\scala-2.13\big-data_2.13-0.1.jar data\part-00000-e0d1e091-a722-4e96-9af8-c53e69b0248b-c000.snappy.parquet outputA outputB
+
+spark-submit --class FoodRecommendation target\scala-2.13\big-data_2.13-0.1.jar datasets\RAW_interactions.csv output
+
+spark-submit --class FoodRecommendation target\scala-2.13\big-data_2.13-0.1.jar datasets\u10.csv output
