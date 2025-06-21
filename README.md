@@ -1,5 +1,6 @@
-# 🥗 Food Recommendation System (Big Data Praktikum - JGU Mainz)
+# 🥗 Food Recommendation System 
 
+### Big Data Praktikum - JGU Mainz
 This project implements a scalable, item-based collaborative filtering recommendation system using Apache Spark. It is designed to process large-scale user-recipe interaction data and generate personalized recipe recommendations.
 
 ## 🗂️ Dataset
