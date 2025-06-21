@@ -66,7 +66,7 @@ This combination of methods ensures both accuracy and scalability, making the sy
   Main logic for data processing, similarity computation, and prediction.
 - `datasets/`  
   Contains input data files such as `RAW_interactions.csv`, user and recipe metadata, and test splits.
-- `Old/`  
+- `old_files/`  
   Contains old output folders from previous runs (not used by the main program).
 
 ## 📖 Usage
