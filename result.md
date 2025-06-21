@@ -33,9 +33,9 @@ We used cosine signature approximation and LSH to scale up the similarity search
   - Most users have little variance in their ratings, leading to generally low RMSE/ME.
   - **Trade-off:** More hyperplanes result in fewer candidates and a slightly worse (but faster) approximation.
   - **Centralized ratings:**  
-    RMSE/ME = **0.59 / 0.45** (20 hyperplanes, 1 bucket)
+    RMSE/ME = `0.59 / 0.45` (20 hyperplanes, 1 bucket)
   - **Uncentralized ratings:**  
-    RMSE/ME = **0.054 / 0.61**
+    RMSE/ME = `0.054 / 0.61`
 
 **Figure 3: RMSE and Avg Error vs. Hyperplanes**  
 ![RMSE Error vs. Hyperplanes](https://github.com/goviet2002/Food-Recommendation-System/blob/main/results/approx1.png)
@@ -49,10 +49,10 @@ We used cosine signature approximation and LSH to scale up the similarity search
 We evaluated alternative prediction baselines using recipe metadata:
 
 - **Date-only Prediction**
-  - Predicting based only on recipe publication date is *very fast* (12 seconds) but yields much higher error (RMSE = 1.4, ME = 0.9).
+  - Predicting based only on recipe publication date is *very fast* (`12 seconds`) but yields much higher error (`RMSE = 1.4`, `ME = 0.9`).
 
 - **Nutrition-based Prediction**
-  - Predicting with nutrition data results in a good trade-off: RMSE = 0.77, ME = 0.62, with a runtime of just 15 seconds.
+  - Predicting with nutrition data results in a good trade-off: `RMSE = 0.77`, `ME = 0.62`, with a runtime of just `15 seconds`.
 
 
 **Figure 4: Prediction based on nutrition**  
